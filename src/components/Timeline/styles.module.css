@@ -32,9 +32,6 @@
 .main li:hover {
   background: rgba(255,255,255, 0.05);
 }
-.main li:hover ~ {
-  opacity: 0.2;
-}
 
 .main li:before {
   border: 2px solid var(--color-accent);
@@ -94,4 +91,38 @@
 small {
   font-size: 0.em;
   margin: 0 5px;
+}
+
+
+@media screen and (max-width: 1145px) {
+  .main {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 845px) {
+  .main li:before, .main li:after {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 655px) {
+  .main li {
+    flex-direction: column;
+    padding: 0;
+  }
+  .main li:hover {
+    background: inherit;
+  }
+  .main li:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  .details {
+    padding-left: 0;
+    font-size: .95rem;
+  }
+  .details .title {
+    color: #fff;
+  }
+
 }
