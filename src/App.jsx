@@ -91,6 +91,19 @@ function App() {
           </div>
 
           <ul id="projects" className={styles.projects}>
+          <li className={styles.project} onClick={()=>window.open('http://ec2-54-67-51-124.us-west-1.compute.amazonaws.com:3000/')}>
+              <div className={styles.projectImg}>
+                <img src="nabs.png" alt="" />
+              </div>
+              <div className={styles.projectDetails}>
+                <a href="http://ec2-54-67-51-124.us-west-1.compute.amazonaws.com:3000/" target="_blank">
+                  <h2>Nabs</h2>
+                </a>
+                <p>Application made for my wife to check everyday before work.</p>
+                <p>Provides a variety of messages catered to the user profile using the OpenAI API</p>
+                <p>Built with NextJS and styled with Tailwind along with Shadcn components</p>
+              </div>
+            </li>
             <li className={styles.project} onClick={()=>window.open("https://stingray-app-x2drr.ondigitalocean.app/exercises")}>
               <div className={styles.projectImg}>
                 <img src="buifit.png" alt="BuiFit" />
@@ -131,17 +144,6 @@ function App() {
                   <h2>Darts Practice</h2>
                 </a>
                 <p>Helper application for popular darts practice routine "A1 Accuracy". Allows for bluetooth connection with Granboard 3 (haven't tested with other boards) for automatic scoring. Stores game results and accuracy statistics via MongoDB.</p>
-              </div>
-            </li>
-            <li className={styles.project} onClick={()=>window.open('https://github.com/sdbui/pet-tracker/wiki')}>
-              <div className={styles.projectImg}>
-                <img src="pets.png" alt="" />
-              </div>
-              <div className={styles.projectDetails}>
-                <a href="https://github.com/sdbui/pet-tracker/wiki" target="_blank">
-                  <h2>Family Pet Tracker</h2>
-                </a>
-                <p>Daily tracker for how many treat calories are given per pet. Will display when calories are over the limit. Records stored in sqlite using Sequelize ORM.</p>
               </div>
             </li>
           </ul>
