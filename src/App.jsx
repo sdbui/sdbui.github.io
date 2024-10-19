@@ -91,12 +91,12 @@ function App() {
           </div>
 
           <ul id="projects" className={styles.projects}>
-          <li className={styles.project} onClick={()=>window.open('http://ec2-54-67-51-124.us-west-1.compute.amazonaws.com:3000/')}>
+          <li className={styles.project} onClick={()=>window.open("http://nabs.buidev.xyz/")}>
               <div className={styles.projectImg}>
                 <img src="nabs.png" alt="" />
               </div>
               <div className={styles.projectDetails}>
-                <a href="http://ec2-54-67-51-124.us-west-1.compute.amazonaws.com:3000/" target="_blank">
+                <a href="http://nabs.buidev.xyz/" target="_blank">
                   <h2>Nabs</h2>
                 </a>
                 <p>Application made for my wife to check everyday before work.</p>
