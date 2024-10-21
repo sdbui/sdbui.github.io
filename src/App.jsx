@@ -91,12 +91,12 @@ function App() {
           </div>
 
           <ul id="projects" className={styles.projects}>
-          <li className={styles.project} onClick={()=>window.open("http://nabs.buidev.xyz/")}>
+          <li className={styles.project} onClick={()=>window.open("https://nabs.vercel.app/")}>
               <div className={styles.projectImg}>
                 <img src="nabs.png" alt="" />
               </div>
               <div className={styles.projectDetails}>
-                <a href="http://nabs.buidev.xyz/" target="_blank">
+                <a href="https://nabs.vercel.app/" target="_blank">
                   <h2>Nabs</h2>
                 </a>
                 <p>Application made for my wife to check everyday before work.</p>
