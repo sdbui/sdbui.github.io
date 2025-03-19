@@ -7,17 +7,16 @@ function Timeline () {
   
   return (
     <ul className={styles.main}>
-      <li className={styles.active} onClick={()=>{window.open('https://www.dataannotation.tech/about?')}}>
+      <li className={styles.active}>
         <div className={styles.timeframe}>
           {/* <span className={styles.dot}></span> */}
           <span>2023 - Present</span>
         </div>
         <div className={styles.details}>
           <div className={styles.title}>
-            <span>Freelance <small>@</small> Data Annotation Tech</span>
+            <span>Freelance Web Developer</span>
           </div>
           <div className={styles.description}>
-            Provide diverse problems and solutions for a coding chatbot. Write high-quality answers and code snippets. Evaluate code quality produced by AI models for correctness and performance
           </div>
         </div>
       </li>
