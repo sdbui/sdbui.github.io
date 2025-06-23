@@ -85,7 +85,7 @@ function App() {
           </div>
           <div id="experience" className={styles.experience} ref={experienceRef}>
             <Timeline></Timeline>
-            <a href="/Stevenb_Resume_2025.pdf" target="_blank">
+            <a href="/sbui_resume_full.pdf" target="_blank">
 							<span class="icon solid fa-file-download"></span> See Resumé
 						</a>
           </div>
